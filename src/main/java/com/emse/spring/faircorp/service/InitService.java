@@ -33,11 +33,11 @@ public class InitService {
         emse = buildingDao.save(emse);
         buildings.add(emse);
         Building building2 = new Building();
-        building2.setName("Mines");
+        building2.setName("Jean Monnet University");
         building2 = buildingDao.save(building2);
         buildings.add(building2);
         Building building3 = new Building();
-        building3.setName("Mines");
+        building3.setName("La Matare");
         building3 = buildingDao.save(building3);
         buildings.add(building3);
 
